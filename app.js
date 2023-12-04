@@ -53,9 +53,89 @@ var lName = prompt(" Enter your last name ?");
 var fullName = fName.concat(" "+lName) 
 document.write(fullName);
 
-// var pak = 'pakistani'
-// var chek = 'zindaabad'
+var pak = 'pakistani'
+var chek = 'zindaabad'
  
-//  var result =pak.concat(' '+ chek);
+ var result =pak.concat(' '+ chek);
  
-// document.write( result);
+document.write( result);
+
+document.write("<br>")
+document.write("<h3> Q:-7 </h3>");
+
+
+var  str = "Hydarabad";
+var a =str.replace("Hydarabad" , " Islamabad");
+
+document.write("<br>"+ "City :"+ str);
+document.write("<br> <br>");
+document.write("After replacement :" + a);
+
+
+document.write("<br>")
+document.write("<h3> Q:-8 </h3>");
+
+var mes = "Ali and sami are best friends. They play cricket and football together.";
+
+var a = mes.replace(/and/g,'&');
+
+document.write(a);
+document.write("<br>");
+document.write("<h3> Q:-9 </h3>");
+
+
+var con = "472";
+document.write ("Type :"+typeof( con)+ "<br>"+"value :" + con);
+document.write("<br>");
+
+var con = parseInt(con);
+document.write("Type :"+typeof(con)+ "<br>"+"value :" + con)
+
+document.write("<br>");
+document.write("<h3> Q:-10 </h3>");
+
+
+
+var user = prompt("Enter a text");
+
+var a = user.toUpperCase(user);
+document.write(a)
+
+
+document.write("<br>");
+document.write("<h3> Q:-11 </h3>");
+
+var user =prompt(" Enter text javascript");
+document.write( "user input :" + user + "<br>");
+ var a = user.slice(0,1);
+ var b = user.slice(1);
+ a = a.toUpperCase();
+ b = b.toLowerCase();
+ var result= a+b;
+ document.write("<br>" +"Title case :"+result);
+
+
+document.write("<br>");
+document.write("<h3> Q:-12 </h3>");
+
+
+var str = "35.36";
+document.write("Number :"+" " + str + "<br>");
+
+var a = str.split(".");
+document.write("Result :"+a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
